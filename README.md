@@ -7,7 +7,10 @@ A robust, production-ready Command Line Interface (CLI) application for placing 
 - **Input Validation**: Ensures safe operations (e.g., verifying price is provided for limit orders, quantity > 0).
 - **Error Handling**: Gracefully handles network issues, API exceptions, and invalid user inputs.
 - **Comprehensive Logging**: Silent console output for user experience, with full detailed logs preserved in `logs/trading_bot.log`.
-- **Rich CLI**: Beautifully formatted terminal outputs using the `rich` library.
+- **Enhanced CLI UX (Bonus)**: 
+  - **Interactive Mode**: Run `python cli.py` without arguments to trigger a guided, interactive prompt sequence that ensures zero syntax errors.
+  - **Beautiful Output**: Features a startup banner and vibrant success/error panels for a premium feel.
+  - **Robust Validation**: Extremely clear and professional error messages guide the user if inputs are invalid.
 
 ## Project Structure
 ```text

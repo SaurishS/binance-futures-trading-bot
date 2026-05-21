@@ -19,3 +19,6 @@
 2026-05-21 22:51:55,900 - root - INFO - Successfully connected to Binance Futures Testnet.
 2026-05-21 22:51:55,900 - root - INFO - Placing MARKET BUY order for 1.0 FAKECOINUSDT
 2026-05-21 22:51:56,059 - root - ERROR - Binance API Exception while placing market order: APIError(code=-1121): Invalid symbol.
+2026-05-21 23:22:33,574 - root - INFO - Successfully connected to Binance Futures Testnet.
+2026-05-21 23:22:33,574 - root - INFO - Placing MARKET BUY order for 0.001 BTCUSDT
+2026-05-21 23:22:33,724 - root - INFO - Market order placed successfully. Order ID: 13173266412. Full response: {'orderId': 13173266412, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'HWmBaKfaryHm4sjpYfsvMM', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1779385954315}
